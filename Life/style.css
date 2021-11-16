@@ -61,24 +61,64 @@ body section div.wrapper {
     padding: 0;
     list-style: none;
     display: flex;  
-    margin-left: 10%; 
+    margin-left: 1%; 
     margin-bottom: 0;
 }
 #top div.links ul li {
     font-size: 1.5em;
     font-weight: 700;
-    position: absolute;
+    position: relative;
 }
 #top div.links ul li.first {
-    left: 254px;
+    left: 315px;
     opacity: 1;
 } 
 #top div.links ul li.sec {
-    left: 181px;
+    left: 164px;
     opacity: 1;
 }
+#top div.links ul li.sec ul {
+    position: absolute;
+    display: none ;
+    float: left;
+    margin: 4px 0 0;
+    border-top: 10px solid white;
+    box-shadow: 5px 4px 25px -10px;
+    left: -83px;
+}
+#top div.links ul li.sec:hover ul {
+    display: flex ;
+}
+#top div.links ul li.sec ul li {
+    width: 110px;
+    margin: auto;
+    padding-left: 15px;
+}
+#top div.links ul li.sec ul li:last-child {
+    padding-left: 0;
+}
+#top div.links ul li.sec ul li input {
+    height: 35px;
+    width: 80px;
+    background-color: rgb(238, 133, 151);
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 20px -10px black;
+}
+#top div.links ul li.sec ul li.border {
+    border-left: 1px solid rgb(238, 133, 151);
+    border-right: 1px solid rgb(238, 133, 151);
+}
+#top div.links ul li.sec ul li p {
+    font-size: 8px;
+}
+#top div.links ul li.sec ul li h1 {
+    font-size: 15px;
+    font-weight: 900 !important;
+    font-family: 'Times New Roman', Times, serif;
+}
 #top div.links ul li.thrd {
-    left: 100px;
+    left: 0px;
 }
 #top div.links ul li a {
     text-decoration: none;
