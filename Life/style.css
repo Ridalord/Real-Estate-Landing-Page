@@ -56,6 +56,12 @@ body section div.wrapper {
     font-size: 4.5em;
     font-weight: 800;
 }
+#top div.note p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+    width: 60%;
+}
 #top div.links {
     bottom: 0;
     position: absolute;
@@ -73,11 +79,58 @@ body section div.wrapper {
     position: relative;
 }
 #top div.links ul li.first {
-    left: 315px;
+    left: 314px;
     opacity: 1;
+}
+#top div.links ul li.first ul {
+    position: absolute;
+    display: none ;
+    float: left;
+    margin: 0;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    box-shadow: 5px 4px 25px -10px;
+    left: -155px;
 } 
+#top div.links ul li.first:hover ul {
+    display: flex ;
+}
+#top div.links ul li.first ul li {
+    width: 120px;
+    margin: auto;
+    padding-left: 15px;
+}
+#top div.links ul li.first ul li:last-child {
+    padding-left: 0;
+}
+#top div.links ul li.first ul li input {
+    height: 35px;
+    width: 80px;
+    background-color: rgb(238, 133, 151);
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 20px -10px black;
+}
+#top div.links ul li.first ul li.border {
+    border-left: 1px solid rgb(238, 133, 151);
+    border-right: 1px solid rgb(238, 133, 151);
+}
+#top div.links ul li.first ul li p {
+    font-size: 8px;
+}
+#top div.links ul li.first ul li.addrs p {
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 14px;
+}
+#top div.links ul li.first ul li h1 {
+    font-size: 15px;
+    font-weight: 900 !important;
+    font-family: 'Times New Roman', Times, serif;
+}
 #top div.links ul li.sec {
-    left: 164px;
+    left: 163px;
     opacity: 1;
 }
 #top div.links ul li.sec ul {
@@ -94,7 +147,7 @@ body section div.wrapper {
     display: flex ;
 }
 #top div.links ul li.sec ul li {
-    width: 110px;
+    width: 120px;
     margin: auto;
     padding-left: 15px;
 }
@@ -116,13 +169,62 @@ body section div.wrapper {
 #top div.links ul li.sec ul li p {
     font-size: 8px;
 }
+#top div.links ul li.sec ul li.addrs p {
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 14px;
+}
 #top div.links ul li.sec ul li h1 {
     font-size: 15px;
     font-weight: 900 !important;
     font-family: 'Times New Roman', Times, serif;
 }
-#top div.links ul li.thrd {
-    left: 0px;
+#top div.links ul li.thrd ul {
+    position: absolute;
+    display: none;
+    float: left;
+    margin: 0;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    box-shadow: 5px 4px 25px -10px;
+}
+#top div.links ul li.thrd:hover ul {
+    display: flex ;
+}
+#top div.links ul li.thrd ul li {
+    width: 120px;
+    margin: auto;
+    padding-left: 15px;
+}
+#top div.links ul li.thrd ul li:last-child {
+    padding-left: 0;
+}
+#top div.links ul li.thrd ul li input {
+    height: 35px;
+    width: 80px;
+    background-color: rgb(238, 133, 151);
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 20px -10px black;
+}
+#top div.links ul li.thrd ul li.border {
+    border-left: 1px solid rgb(238, 133, 151);
+    border-right: 1px solid rgb(238, 133, 151);
+}
+#top div.links ul li.thrd ul li p {
+    font-size: 8px;
+}
+#top div.links ul li.thrd ul li.addrs p {
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 14px;
+}
+#top div.links ul li.thrd ul li h1 {
+    font-size: 15px;
+    font-weight: 900 !important;
+    font-family: 'Times New Roman', Times, serif;
 }
 #top div.links ul li a {
     text-decoration: none;
