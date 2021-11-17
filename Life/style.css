@@ -242,6 +242,6 @@ body section div.wrapper {
     background-color: rgb(238, 133, 151);
     color: white;
 }
-#mid {
+section.mid {
     margin-top: 100px;
 }
