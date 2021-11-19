@@ -92,38 +92,6 @@ body section div.wrapper {
     box-shadow: 5px 4px 25px -10px;
     left: -155px;
 } 
-#top div.links ul li.first:hover ul {
-    display: flex ;
-}
-#top div.links ul li.first ul li {
-    width: 120px;
-    margin: auto;
-    padding-left: 15px;
-}
-#top div.links ul li.first ul li:last-child {
-    padding-left: 0;
-}
-#top div.links ul li.first ul li input {
-    height: 35px;
-    width: 80px;
-    background-color: rgb(238, 133, 151);
-    color: white;
-    border: none;
-    box-shadow: 3px 3px 20px -10px black;
-}
-#top div.links ul li.first ul li.border {
-    border-left: 1px solid rgb(238, 133, 151);
-    border-right: 1px solid rgb(238, 133, 151);
-}
-#top div.links ul li.first ul li p {
-    font-size: 8px;
-}
-#top div.links ul li.first ul li.addrs p {
-    background-image: url(../img/search.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 14px;
-}
 #top div.links ul li.first ul li h1 {
     font-size: 15px;
     font-weight: 900 !important;
@@ -178,7 +146,6 @@ body section div.wrapper {
 #top div.links ul li.sec ul li h1 {
     font-size: 15px;
     font-weight: 900 !important;
-    font-family: 'Times New Roman', Times, serif;
 }
 #top div.links ul li.thrd ul {
     position: absolute;
@@ -243,5 +210,55 @@ body section div.wrapper {
     color: white;
 }
 section.mid {
-    margin-top: 100px;
+    width: 80%;
+    column-count: 2;
+    column-gap: 35px;
+    margin: 90px auto 0;
+}
+body section.mid div.fst div.why {
+    height: 155px;
+}
+body section.mid div.fst div.why h1 {
+    font-size: 50px;
+    margin-top: 0;
+}
+body section.mid div.fst div.easy {
+    height: 95px;
+}
+body section.mid div.fst div.easy h1 {
+    line-height: 15px;
+}
+body section.mid div.fst div.invst {
+    height: 95px;
+}
+body section.mid div.fst div.invst h1 {
+    line-height: 15px;
+}
+body section.mid div.fst div.trstd {
+    height: 95px;
+}
+body section.mid div.fst div.trstd h1 {
+    line-height: 15px;
+}
+body section.mid div.fst div.prpty {
+    margin-top: 40px;
+    height: 155px;
+    width: 320px;
+}
+body section.mid div.fst div.prpty input {
+    border: none;
+    color: white;
+    background-color: rgb(238, 133, 151);
+    height: 45px;
+    width: 140px;
+    border-radius: 7px;
+    margin: 20px 0 30px;
+}
+body section.mid div.fst div.lcns h1 {
+    line-height: 15px;
+}
+section.mid div.house img{
+    width: 440px;
+    height: 424px;
+    border-radius: 15px;
 }
