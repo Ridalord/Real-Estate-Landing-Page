@@ -1,6 +1,7 @@
 body {
     width: 100%;
     margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 body section div.wrapper {
     background-color: black;
@@ -60,7 +61,7 @@ body section div.wrapper {
     font-size: 18px;
     font-weight: normal;
     line-height: normal;
-    width: 60%;
+    width: 61%;
 }
 #top div.links {
     bottom: 0;
@@ -79,7 +80,7 @@ body section div.wrapper {
     position: relative;
 }
 #top div.links ul li.first {
-    left: 314px;
+    left: 310px;
     opacity: 1;
 }
 #top div.links ul li.first ul {
@@ -95,10 +96,9 @@ body section div.wrapper {
 #top div.links ul li.first ul li h1 {
     font-size: 15px;
     font-weight: 900 !important;
-    font-family: 'Times New Roman', Times, serif;
 }
 #top div.links ul li.sec {
-    left: 163px;
+    left: 160px;
     opacity: 1;
 }
 #top div.links ul li.sec ul {
@@ -109,7 +109,7 @@ body section div.wrapper {
     border-top: 10px solid white;
     border-bottom: 10px solid white;
     box-shadow: 5px 4px 25px -10px;
-    left: -83px;
+    left: -81px;
 }
 #top div.links ul li.sec:hover ul {
     display: flex ;
@@ -135,7 +135,7 @@ body section div.wrapper {
     border-right: 1px solid rgb(238, 133, 151);
 }
 #top div.links ul li.sec ul li p {
-    font-size: 8px;
+    font-size: 10px;
 }
 #top div.links ul li.sec ul li.addrs p {
     background-image: url(../img/search.png);
@@ -180,7 +180,7 @@ body section div.wrapper {
     border-right: 1px solid rgb(238, 133, 151);
 }
 #top div.links ul li.thrd ul li p {
-    font-size: 8px;
+    font-size: 10px;
 }
 #top div.links ul li.thrd ul li.addrs p {
     background-image: url(../img/search.png);
@@ -191,12 +191,11 @@ body section div.wrapper {
 #top div.links ul li.thrd ul li h1 {
     font-size: 15px;
     font-weight: 900 !important;
-    font-family: 'Times New Roman', Times, serif;
 }
 #top div.links ul li a {
     text-decoration: none;
     color: black;
-    padding: 15px 20px 2px;
+    padding: 15px 20px 0;
     background-color: white;
 }
 #top div.links ul li a.bord {
@@ -224,18 +223,51 @@ body section.mid div.fst div.why h1 {
 }
 body section.mid div.fst div.easy {
     height: 95px;
+    display: flex;
+    margin-bottom: 20px;
 }
-body section.mid div.fst div.easy h1 {
+body section.mid div.fst div.easy img {
+    padding: 12px;
+    background-color: rgb(238, 133, 151);
+    height: fit-content;
+    margin: auto 0;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+div.point {
+    margin-left: 8px;
+}
+body section.mid div.fst div.easy div.point h1 {
     line-height: 15px;
 }
 body section.mid div.fst div.invst {
     height: 95px;
+    display: flex;
+    margin-bottom: 20px;
+}
+body section.mid div.fst div.invst img {
+    padding: 12px;
+    background-color: rgb(238, 133, 151);
+    height: fit-content;
+    margin: auto 0;
+    border-radius: 5px;
+    opacity: 0.7;
 }
 body section.mid div.fst div.invst h1 {
     line-height: 15px;
 }
 body section.mid div.fst div.trstd {
     height: 95px;
+    display: flex;
+    margin-bottom: 20px;
+}
+body section.mid div.fst div.trstd img {
+    padding: 12px;
+    background-color: rgb(238, 133, 151);
+    height: fit-content;
+    margin: auto 0;
+    border-radius: 5px;
+    opacity: 0.7;
 }
 body section.mid div.fst div.trstd h1 {
     line-height: 15px;
@@ -244,6 +276,7 @@ body section.mid div.fst div.prpty {
     margin-top: 40px;
     height: 155px;
     width: 320px;
+    margin-bottom: 20px;
 }
 body section.mid div.fst div.prpty input {
     border: none;
@@ -256,6 +289,17 @@ body section.mid div.fst div.prpty input {
 }
 body section.mid div.fst div.lcns h1 {
     line-height: 15px;
+}
+body section.mid div.fst div.lcns {
+    display: flex;
+}
+body section.mid div.fst div.lcns img {
+    padding: 12px;
+    background-color: rgb(238, 133, 151);
+    height: fit-content;
+    margin: auto 0;
+    border-radius: 5px;
+    opacity: 0.7;
 }
 section.mid div.house img{
     width: 440px;
