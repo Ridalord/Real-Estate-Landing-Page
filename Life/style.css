@@ -239,6 +239,7 @@ div.point {
 }
 body section.mid div.fst div.easy div.point h1 {
     line-height: 15px;
+    padding-top: 2px;
 }
 body section.mid div.fst div.invst {
     height: 95px;
@@ -255,9 +256,10 @@ body section.mid div.fst div.invst img {
 }
 body section.mid div.fst div.invst h1 {
     line-height: 15px;
+    padding-top: 2px;
 }
 body section.mid div.fst div.trstd {
-    height: 95px;
+    height: 93px;
     display: flex;
     margin-bottom: 20px;
 }
@@ -271,12 +273,16 @@ body section.mid div.fst div.trstd img {
 }
 body section.mid div.fst div.trstd h1 {
     line-height: 15px;
+    padding-top: 2px;
 }
 body section.mid div.fst div.prpty {
     margin-top: 40px;
-    height: 155px;
+    height: 156px;
     width: 320px;
     margin-bottom: 20px;
+}
+body section.mid div.fst div.prpty p {
+    padding-top: 5px;
 }
 body section.mid div.fst div.prpty input {
     border: none;
@@ -301,8 +307,204 @@ body section.mid div.fst div.lcns img {
     border-radius: 5px;
     opacity: 0.7;
 }
-section.mid div.house img{
+section.mid div.house {
     width: 440px;
-    height: 424px;
+    height: 395px;
     border-radius: 15px;
+    background-image: url(../img/house1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+section.mid div.house div.prctag {
+    height: 80px;
+    width: 130px;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 365px;
+}
+section.mid div.house div.prctag p {
+    text-align: center;
+    font-size: 16px;
+    width: 120px;
+    margin: 16px auto;
+}
+section.mid div.house div.prctag h1 {
+    line-height: 0;
+    text-align: center;
+    font-size: 35px;
+    margin: 15px;
+    font-weight: bold !important;
+}
+section.mid div.house div.rvwstag {
+    height: 70px;
+    width: 110px;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin:210px 0 0 -50px;
+}
+section.mid div.house div.rvwstag h1 {
+    line-height: 25px;
+    padding: 15px 0 5px;
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+}
+section.mid div.house div.rvwstag p {
+    margin: 0 5px 5px;
+    text-align: center;
+    line-height: 0;
+}
+section.mid2 {
+    width: 80%;
+    margin: 90px auto 0;
+}
+section.mid2 h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+section.mid2 p {
+    display: flex;
+}
+section.mid2 p a {
+    margin:0 8px 0 auto;
+    color: black;
+}
+section.mid2 div.prptywrap {
+    column-count: 3;
+    column-gap: 25px;
+    margin: 50px 0;
+}
+section.mid2 div.prptywrap div.house2, div.house3, div.house4 {
+    background-color: rgb(245, 215, 220);
+    border-radius: 5px 5px 0 0;
+}
+section.mid2 div.prptywrap div.house2 a img {
+    width: 100%;
+    height: 240px;
+    border-radius: 8px;
+}
+section.mid2 div.prptywrap div.house3 a img {
+    width: 100%;
+    height: 240px;
+    border-radius: 8px;
+}
+section.mid2 div.prptywrap div.house4 a img {
+    width: 100%;
+    height: 240px;
+    border-radius: 8px;
+}
+table {
+    width: 100%;
+}
+td {
+    padding-left: 5px;
+    font-size: 17px;
+} 
+td.big {
+    font-size: 20px;
+    font-weight: bold;
+}
+section.mid3 {
+    background-color: rgb(245, 215, 220);
+    width: 100%;
+    margin: 110px 0 130px;
+}
+section.mid3 h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 60px 0;
+    padding-top: 50px;
+}
+section.mid3 div.rvws {
+    width: 80%;
+    column-count: 3;
+    margin: 0 auto;
+}
+section.mid3 div.rvws div {
+    margin: 0;
+    width: 300px;
+    height: 230px;
+    background-color: white;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    padding: 40px 5px 40px 40px;
+}
+section.mid3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: auto 0;
+}
+section.mid3 div.rvws div ul li.idntty {
+    margin-left: 15px;
+}
+section.mid3 div.rvws div ul li.idntty h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+ul li.idntty p {
+    margin: 5px 0;
+}
+ul li.dp img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+section.mid3 div.rvws div p {
+    margin: 0;
+}
+section.mid4 {
+    width: 100%;
+    margin-bottom: 60px;
+}
+section.mid4 div.ownreml {
+    width: 80%;
+    background-color: rgb(252, 241, 243);
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0 50px;
+}
+section.mid4 div.ownreml h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+section.mid4 div.ownreml p {
+    margin-bottom: 25px;
+}
+section.mid4 div.ownreml input.txtbx {
+    height: 45px;
+    width: 220px;
+    border: none;
+    padding-left: 15px;
+    border-radius: 3px;
+}
+section.mid4 div.ownreml input.sbmt {
+    height: 45px;
+    border: none;
+    width: 100px;
+    background-color: rgb(238, 133, 151);
+    border-radius: 5px;
+    color: white;
+}
+footer  {
+    width: 80%;
+    margin: 0 auto;
+}
+footer p {
+    display: flex;
+}
+footer p a {
+    margin-left: auto;
+    text-decoration: none;
+    color: black;
 }
