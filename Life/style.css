@@ -4,10 +4,20 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 body section div.wrapper {
-    background-color: black;
-    opacity: 0.7;
     height: 710px;
     position: relative;
+}
+body section div.wrapper p.logo {
+    font-size: 30px;
+    font-family: CommercialScript BT;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    line-height: 60px;
+    padding: 10px 0 0 13px;
+    color:  rgb(242, 120, 140);
+    top: -100px;
+    opacity: 0.6;
 }
 #top {
     height: 710px;
@@ -18,7 +28,7 @@ body section div.wrapper {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    box-shadow: inset 0 0 0 2000px rgba(7, 7, 7, 0.6);
 }
 #top nav {
     padding-top: 20px;
@@ -56,6 +66,7 @@ body section div.wrapper {
     color: white;
     font-size: 4.5em;
     font-weight: 800;
+    opacity: 1 !important;
 }
 #top div.note p {
     font-size: 18px;
@@ -63,27 +74,27 @@ body section div.wrapper {
     line-height: normal;
     width: 61%;
 }
-#top div.links {
+#top form {
     bottom: 0;
     position: absolute;
 }
-#top div.links ul {
+#top form ul {
     padding: 0;
     list-style: none;
     display: flex;  
     margin-left: 1%; 
     margin-bottom: 0;
 }
-#top div.links ul li {
+#top form ul li {
     font-size: 1.5em;
     font-weight: 700;
     position: relative;
 }
-#top div.links ul li.first {
+#top form ul li.first {
     left: 310px;
     opacity: 1;
 }
-#top div.links ul li.first ul {
+#top form ul li.first ul {
     position: absolute;
     display: none ;
     float: left;
@@ -93,15 +104,15 @@ body section div.wrapper {
     box-shadow: 5px 4px 25px -10px;
     left: -155px;
 } 
-#top div.links ul li.first ul li h1 {
+#top form ul li.first ul li h1 {
     font-size: 15px;
     font-weight: 900 !important;
 }
-#top div.links ul li.sec {
+#top form ul li.sec {
     left: 160px;
     opacity: 1;
 }
-#top div.links ul li.sec ul {
+#top form ul li.sec ul {
     position: absolute;
     display: none ;
     float: left;
@@ -111,18 +122,18 @@ body section div.wrapper {
     box-shadow: 5px 4px 25px -10px;
     left: -81px;
 }
-#top div.links ul li.sec:hover ul {
+#top form ul li.sec:hover ul {
     display: flex ;
 }
-#top div.links ul li.sec ul li {
+#top form ul li.sec ul li {
     width: 120px;
     margin: auto;
     padding-left: 15px;
 }
-#top div.links ul li.sec ul li:last-child {
+#top form ul li.sec ul li:last-child {
     padding-left: 0;
 }
-#top div.links ul li.sec ul li input {
+#top form ul li.sec ul li input {
     height: 35px;
     width: 80px;
     background-color: rgb(238, 133, 151);
@@ -130,24 +141,24 @@ body section div.wrapper {
     border: none;
     box-shadow: 3px 3px 20px -10px black;
 }
-#top div.links ul li.sec ul li.border {
+#top form ul li.sec ul li.border {
     border-left: 1px solid rgb(238, 133, 151);
     border-right: 1px solid rgb(238, 133, 151);
 }
-#top div.links ul li.sec ul li p {
+#top form ul li.sec ul li p {
     font-size: 10px;
 }
-#top div.links ul li.sec ul li.addrs p {
+#top form ul li.sec ul li.addrs p {
     background-image: url(../img/search.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 14px;
 }
-#top div.links ul li.sec ul li h1 {
+#top form ul li.sec ul li h1 {
     font-size: 15px;
     font-weight: 900 !important;
 }
-#top div.links ul li.thrd ul {
+#top form ul li.thrd ul {
     position: absolute;
     display: none;
     float: left;
@@ -156,18 +167,18 @@ body section div.wrapper {
     border-bottom: 10px solid white;
     box-shadow: 5px 4px 25px -10px;
 }
-#top div.links ul li.thrd:hover ul {
+#top form ul li.thrd:hover ul {
     display: flex ;
 }
-#top div.links ul li.thrd ul li {
+#top form ul li.thrd ul li {
     width: 120px;
     margin: auto;
     padding-left: 15px;
 }
-#top div.links ul li.thrd ul li:last-child {
+#top form ul li.thrd ul li:last-child {
     padding-left: 0;
 }
-#top div.links ul li.thrd ul li input {
+#top form ul li.thrd ul li input {
     height: 35px;
     width: 80px;
     background-color: rgb(238, 133, 151);
@@ -175,36 +186,36 @@ body section div.wrapper {
     border: none;
     box-shadow: 3px 3px 20px -10px black;
 }
-#top div.links ul li.thrd ul li.border {
+#top form ul li.thrd ul li.border {
     border-left: 1px solid rgb(238, 133, 151);
     border-right: 1px solid rgb(238, 133, 151);
 }
-#top div.links ul li.thrd ul li p {
+#top form ul li.thrd ul li p {
     font-size: 10px;
 }
-#top div.links ul li.thrd ul li.addrs p {
+#top form ul li.thrd ul li.addrs p {
     background-image: url(../img/search.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 14px;
 }
-#top div.links ul li.thrd ul li h1 {
+#top form ul li.thrd ul li h1 {
     font-size: 15px;
     font-weight: 900 !important;
 }
-#top div.links ul li a {
+#top form ul li a {
     text-decoration: none;
     color: black;
     padding: 15px 20px 0;
     background-color: white;
 }
-#top div.links ul li a.bord {
+#top form ul li a.bord {
     border-radius: 10px 10px 0 0;
 }
-#top div.links ul li a.sbord {
+#top form ul li a.sbord {
     border-radius: 0 10px 0 0;
 }
-#top div.links ul li a:hover {
+#top form ul li a:hover {
     background-color: rgb(238, 133, 151);
     color: white;
 }
@@ -283,15 +294,15 @@ body section.mid div.fst div.prpty {
 }
 body section.mid div.fst div.prpty p {
     padding-top: 5px;
+    margin-bottom: 40px;
 }
-body section.mid div.fst div.prpty input {
+body section.mid div.fst div.prpty a {
     border: none;
     color: white;
     background-color: rgb(238, 133, 151);
-    height: 45px;
-    width: 140px;
+    padding: 14px 16px;
     border-radius: 7px;
-    margin: 20px 0 30px;
+    text-decoration: none;
 }
 body section.mid div.fst div.lcns h1 {
     line-height: 15px;
@@ -467,28 +478,28 @@ section.mid4 {
     width: 100%;
     margin-bottom: 60px;
 }
-section.mid4 div.ownreml {
+section.mid4 form {
     width: 80%;
     background-color: rgb(252, 241, 243);
     margin: 0 auto;
     text-align: center;
     padding: 40px 0 50px;
 }
-section.mid4 div.ownreml h1 {
+section.mid4 form h1 {
     font-size: 50px;
     margin-bottom: 25px;
 }
-section.mid4 div.ownreml p {
+section.mid4 form p {
     margin-bottom: 25px;
 }
-section.mid4 div.ownreml input.txtbx {
+section.mid4 form input.txtbx {
     height: 45px;
     width: 220px;
     border: none;
     padding-left: 15px;
     border-radius: 3px;
 }
-section.mid4 div.ownreml input.sbmt {
+section.mid4 form input.sbmt {
     height: 45px;
     border: none;
     width: 100px;
@@ -498,7 +509,52 @@ section.mid4 div.ownreml input.sbmt {
 }
 footer  {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 50px;
+}
+footer ul.ftrlnks {
+    display: flex;
+}
+footer ul.ftrlnks ul {
+    margin-bottom: 50px;
+}
+footer ul.ftrlnks ul.lst1 {
+    flex-grow: 2;
+}
+footer ul.ftrlnks ul.lst2 {
+    flex-grow: 1;
+}
+footer ul.ftrlnks ul.lst3 {
+    flex-grow: 1;
+}
+footer ul.ftrlnks ul.lst4 {
+    flex-grow: 1;
+}
+footer ul.ftrlnks ul.lst5 {
+    flex-grow: 1;
+}
+ul.lst1 li.ctgry {
+    font-size: 30px;
+    font-family: CommercialScript BT;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    line-height: 60px;
+    padding: 10px 0 0 13px;
+    color:  rgb(242, 120, 140);
+}
+footer ul.ftrlnks ul.lst1 li.us p {
+    width: 240px;
+}
+footer ul.ftrlnks ul li {
+    margin-bottom: 18px;
+}
+footer ul.ftrlnks ul li.ttl h1 {
+    font-size: 18px;
+    line-height: 43px;
+}
+footer ul.ftrlnks ul li a {
+    text-decoration: none;
+    color: rgb(148, 148, 148);
 }
 footer p {
     display: flex;
@@ -506,5 +562,5 @@ footer p {
 footer p a {
     margin-left: auto;
     text-decoration: none;
-    color: black;
+    color: rgb(148, 148, 148);
 }
