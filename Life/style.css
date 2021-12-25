@@ -40,6 +40,10 @@ body section div.wrapper p.logo {
     list-style: none;
     display: flex;
     justify-content: center;
+    background-image: url(../img/sitelogo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    line-height: 53px;
 }
 #top nav ul li {
     font-size: 1.5em;
