@@ -4,7 +4,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 body section div.wrapper {
-    height: 710px;
+    height: 711px;
     position: relative;
 }
 body section div.wrapper p.logo {
@@ -56,24 +56,25 @@ body section div.wrapper p.logo {
     color: white;
     padding: 10px;
     border-radius: 10px 5px;
+    width: 100%;
 }
 #top nav ul li a:hover {
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.659);
     color: black;   
-    opacity: 0.8;
 }
 #top div.note {
     width: 48%;
-    line-height: 80px;
     margin-top: 25%;
     margin-left: 5%;
     color: white;
-    font-size: 4.5em;
-    font-weight: 800;
-    opacity: 1 !important;
+}
+#top div.note header {
+    line-height: 80px;
+    font-size: 3em;
+    font-weight: 700;
 }
 #top div.note p {
-    font-size: 18px;
+    font-size: 18px; 
     font-weight: normal;
     line-height: normal;
     width: 61%;
@@ -95,8 +96,7 @@ body section div.wrapper p.logo {
     position: relative;
 }
 #top form ul li.first {
-    left: 310px;
-    opacity: 1;
+    left: 330px;
 }
 #top form ul li.first ul {
     position: absolute;
@@ -113,7 +113,7 @@ body section div.wrapper p.logo {
     font-weight: 900 !important;
 }
 #top form ul li.sec {
-    left: 160px;
+    left: 170px;
     opacity: 1;
 }
 #top form ul li.sec ul {
@@ -229,19 +229,19 @@ section.mid {
     column-gap: 35px;
     margin: 90px auto 0;
 }
-body section.mid div.fst div.why {
+body section.mid div.why {
     height: 155px;
 }
-body section.mid div.fst div.why h1 {
+body section.mid div.why h1 {
     font-size: 50px;
     margin-top: 0;
 }
-body section.mid div.fst div.easy {
+body section.mid div.easy {
     height: 95px;
     display: flex;
     margin-bottom: 20px;
 }
-body section.mid div.fst div.easy img {
+body section.mid div.easy img {
     padding: 12px;
     background-color: rgb(238, 133, 151);
     height: fit-content;
@@ -252,16 +252,16 @@ body section.mid div.fst div.easy img {
 div.point {
     margin-left: 8px;
 }
-body section.mid div.fst div.easy div.point h1 {
+body section.mid div.easy div.point h1 {
     line-height: 15px;
     padding-top: 2px;
 }
-body section.mid div.fst div.invst {
+body section.mid div.invst {
     height: 95px;
     display: flex;
     margin-bottom: 20px;
 }
-body section.mid div.fst div.invst img {
+body section.mid div.invst img {
     padding: 12px;
     background-color: rgb(238, 133, 151);
     height: fit-content;
@@ -269,16 +269,16 @@ body section.mid div.fst div.invst img {
     border-radius: 5px;
     opacity: 0.7;
 }
-body section.mid div.fst div.invst h1 {
+body section.mid div.invst h1 {
     line-height: 15px;
     padding-top: 2px;
 }
-body section.mid div.fst div.trstd {
+body section.mid div.trstd {
     height: 93px;
     display: flex;
     margin-bottom: 20px;
 }
-body section.mid div.fst div.trstd img {
+body section.mid div.trstd img {
     padding: 12px;
     background-color: rgb(238, 133, 151);
     height: fit-content;
@@ -286,21 +286,21 @@ body section.mid div.fst div.trstd img {
     border-radius: 5px;
     opacity: 0.7;
 }
-body section.mid div.fst div.trstd h1 {
+body section.mid div.trstd h1 {
     line-height: 15px;
     padding-top: 2px;
 }
-body section.mid div.fst div.prpty {
+body section.mid div.prpty {
     margin-top: 40px;
     height: 156px;
     width: 320px;
     margin-bottom: 20px;
 }
-body section.mid div.fst div.prpty p {
+body section.mid div.prpty p {
     padding-top: 5px;
     margin-bottom: 40px;
 }
-body section.mid div.fst div.prpty a {
+body section.mid div.prpty a {
     border: none;
     color: white;
     background-color: rgb(238, 133, 151);
@@ -308,13 +308,13 @@ body section.mid div.fst div.prpty a {
     border-radius: 7px;
     text-decoration: none;
 }
-body section.mid div.fst div.lcns h1 {
+body section.mid div.lcns h1 {
     line-height: 15px;
 }
-body section.mid div.fst div.lcns {
+body section.mid div.lcns {
     display: flex;
 }
-body section.mid div.fst div.lcns img {
+body section.mid div.lcns img {
     padding: 12px;
     background-color: rgb(238, 133, 151);
     height: fit-content;
@@ -569,9 +569,99 @@ footer ul.ftrlnks ul li a {
 }
 footer p {
     display: flex;
+    font-size: 13px;
 }
 footer p a {
     margin-left: auto;
     text-decoration: none;
     color: rgb(148, 148, 148);
+}
+
+@media screen and (max-width: 480px) {
+    #top {
+        height: 709px;
+    }
+    #top nav ul {
+        background-image: none;
+    }
+    #top nav ul li {
+        font-size: 0.9em;
+        padding-right: 0;
+    }
+    #top div.note {
+        width: 70%;
+        margin-top: 65%;
+    }
+    #top div.note header {
+        line-height: 2;
+        font-size: 1.5em;
+    }
+    #top div.note p {
+        font-size: 16px;
+        width: auto; 
+    }
+    section.mid {
+        column-count: 1;
+    }
+    section.mid div.house {
+        width: 100%;
+        height: 375px;
+    }
+    section.mid div.house div.prctag {
+        margin-left: 240px;
+    }
+    section.mid div.house div.prctag h1 {
+    font-size: 1.4em;
+    }
+    section.mid div.house div.rvwstag {
+        margin: 190px 0 0 -40px;
+    }
+    section.mid2 h1 {
+        font-size: 2em;
+    }
+    section.mid2 p {
+        flex-flow: column;
+    }
+    section.mid2 p a {
+        margin: 0;
+    }
+    section.mid2 div.prptywrap {
+        column-count: 1;
+    }
+    section.mid2 div.prptywrap div.house2, div.house3, div.house4 {
+        margin-bottom: 20px;
+    }
+    section.mid3 div.rvws {
+        column-count: 1;
+    }
+    section.mid3 h1 {
+        font-size: 2.3em;
+    }
+    footer ul.ftrlnks {
+        padding-left: 0;
+        /* flex-direction: column; */
+        display: grid;
+        /* column-count: 2; */
+    }
+    footer ul.ftrlnks ul.lst1 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+        footer ul.ftrlnks ul.lst2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+        footer ul.ftrlnks ul.lst3 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+        footer ul.ftrlnks ul.lst4 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+        footer ul.ftrlnks ul.lst5 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    
 }
